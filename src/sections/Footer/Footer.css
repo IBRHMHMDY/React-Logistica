@@ -1,0 +1,37 @@
+.btn-link,
+.btn-social{
+   text-decoration: none;
+   color: #FFF;
+   display: flex;
+   font-weight: normal;
+}
+.btn-link:hover{
+   color: var(--color-sky);
+}
+.btn-social{
+   margin-right: 10px;
+   border-radius: 50%;
+   padding: 15px ;
+}
+.btn-social svg{
+   size: 20px;
+   fill: var(--color-sky);
+}
+.btn-social:hover svg{
+   fill: var(--color-primary);
+   size: 30px;
+}
+
+.btn-bottom-bar{
+   text-decoration: none;
+   color: var(--color-primary);
+}
+
+
+.btn-bottom-bar:hover{
+   color: var(--color-sky);
+}
+
+.copyright{
+   font-size: 20px;
+}

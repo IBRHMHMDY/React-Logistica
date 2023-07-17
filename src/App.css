@@ -1,0 +1,54 @@
+/* Import Google Fonts [Cairo] */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+   --color-primary: #FF3E41;
+   --color-sky: #51CFED;
+   --color-light: #F8F2F0;
+   --color-dark: #060315;
+   --color-success: #198754;
+   --color-white: #fff;
+
+   /* --size-primary: 20px; */
+
+   /* --margin-standard: var(--size-primary); 20px */
+   /*--margin-small: calc(var(--size-primary) / 2.5);  8px */
+   /*--margin-half: calc(var(--size-primary) / 2);  10px */
+   /*--margin-double: calc(var(--size-primary) * 2); 40px */
+   /*--margin-large: calc(var(--size-primary) * 2.5);  50px */
+   
+   /*--padding-standard: var(--size-primary);  20px */
+   /*--padding-small: calc(var(--size-primary) / 2.5);  8px */
+   /*--padding-half: calc(var(--size-primary) / 2);  10px */
+   /*--padding-double: calc(var(--size-primary) * 2);  40px */
+   /*--padding-large: calc(var(--size-primary) * 2.5);  50px */
+
+   --fs-standard: 16px;
+
+   --fs-8: calc(var(--fs-standard)/2);  /*8px*/
+   --fs-16: var(--fs-standard);  /*16px*/
+   --fs-32: calc(var(--fs-standard) * 2);  /*32px*/
+
+   --fw-3: 300;
+   --fw-5: 500;
+   --fw-7: 700;
+   --fw-9: 900;
+
+   --shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* html{
+   user-select: none;
+} */
+
+
